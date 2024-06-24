@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  border: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: #aee4e6;
+}
+
+.panel {
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #1d3557;
+  color: #f1faee;
+  border-bottom: 2px solid white;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.op {
+  height: 165px;
+  width: 165px;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Rock:hover {
+  cursor: pointer;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(deeppink 0.2rem 0.2rem 25px);
+}
+
+#Paper:hover {
+  cursor: pointer;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(rgb(0, 102, 255) 0.2rem 0.2rem 25px);
+}
+
+#Scissors:hover {
+  cursor: pointer;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(orange 0.2rem 0.2rem 25px);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#user-score,
+#bot-score {
+  font-size: 3.5rem;
+}
+
+.msg-box {
+  margin-top: 4rem;
+}
+
+#msg {
+  background-color: #e63946;
+  color: white;
+  border: 2px solid white;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  display: inline;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px #871e27;
+}
